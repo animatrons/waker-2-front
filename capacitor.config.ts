@@ -2,7 +2,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'com.waker.front',
   appName: 'waker-2',
   webDir: 'www',
   bundledWebRuntime: false,
