@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { GoogleAuth } from '@codetrix-studio/capacitor-google-auth';
+import { environment } from 'src/environments/environment';
+
 
 @Component({
   selector: 'app-home',
@@ -7,6 +10,8 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor() {
+    GoogleAuth.initialize();
+  }
 
 }
